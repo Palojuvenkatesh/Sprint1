@@ -1,0 +1,56 @@
+
+.header-logo-image {
+    width: 48px;
+    border-radius: 50%;
+    margin-right: 40px;
+   
+  }
+
+  .m-containers{
+    background-color:white;
+    height: 85px;
+  }
+  .header-website-names {
+    font-family: cursive;
+    font-size: 25px;
+    font-weight: 700;
+    color: #ef5350;
+    /* margin-right: 10px; */
+    margin-left: -30px;
+  }
+  .search-item{
+    margin-left: 90px;
+    width: 450px;
+  }
+  .listyourbussiness-headss{
+    font-size: 21px;
+    margin-top: 10px;
+    margin-left: 100px;
+    font-family: sans-serif;
+    color:#5D6D7E;
+  }
+  
+  .signin-headss{
+    margin-top: 13px;
+    font-size: 23px;
+    margin-left: 100px;
+    font-family: sans-serif;
+    color:#5D6D7E;
+  }
+
+  
+  
+  .provide-servicess{
+    margin-top: 10px;
+    font-size: 21px;
+    margin-left: 50px;
+    font-family: sans-serif;
+    color:#5D6D7E;
+  }
+  .My-accountss{
+    margin-top: 10px;
+    font-size: 21px;
+    margin-left: 50px;
+    font-family: sans-serif;
+    color:#5D6D7E;
+  }

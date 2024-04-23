@@ -1,0 +1,248 @@
+.restcategory{
+    width: 1640px;
+    height: 40vh;
+}
+
+
+.hosptial-img{
+    width: 100%;
+    height: 250px;
+}
+.search-container {
+    display: flex;
+}
+#search-input {
+    margin-top: 50px;
+    margin-left: 50px;
+
+    padding: 10px;
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid #ccc;
+    width: 500px;
+    outline: none;
+}
+
+.services-headings{
+    background-color: #fbfbfb;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    padding-left: 100px;
+    padding-right: 130px;
+    cursor: pointer;
+    color: #111111;
+    font-family: sans-serif;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+.services-headings-afghani{
+    background-color: white;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    padding-left: 70px;
+    padding-right: 130px;
+    cursor: pointer;
+    color: #111111;
+    font-family: sans-serif;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+.services-headings-african{
+    background-color: #fbfbfb;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    padding-left: 80px;
+    padding-right: 130px;
+    cursor: pointer;
+    color: #111111;
+    font-family: sans-serif;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+.services-headings-american{
+    background-color: white;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    padding-left: 90px;
+    padding-right: 130px;
+    cursor: pointer;
+    color: #111111;
+    font-family: sans-serif;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+.services-headings-andalusian{
+    background-color: #fbfbfb;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    padding-left: 60px;
+    padding-right: 130px;
+    cursor: pointer;
+    color: #111111;
+    font-family: sans-serif;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+.services-headings-andhra{
+    background-color: white;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    padding-left: 80px;
+    padding-right: 130px;
+    cursor: pointer;
+    color: #111111;
+    font-family: sans-serif;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+.services-headings-arabic{
+    background-color: #fbfbfb;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    padding-left: 100px;
+    padding-right: 130px;
+    cursor: pointer;
+    color: #111111;
+    font-family: sans-serif;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+.services-headings-agentinian{
+    background-color: white;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    padding-left: 60px;
+    padding-right: 130px;
+    cursor: pointer;
+    color: #111111;
+    font-family: sans-serif;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+.services-headings-armenian{
+    background-color: #fbfbfb;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    padding-left: 80px;
+    padding-right: 130px;
+    cursor: pointer;
+    color: #111111;
+    font-family: sans-serif;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.services-headings:hover {
+    transform: translateX(20px); /* Change the value to adjust the distance the text moves */
+
+}
+.services-headings-afghani:hover{
+    transform: translateX(20px); 
+}
+.services-headings-african:hover{
+    transform: translateX(20px); 
+}
+.services-headings-american:hover{
+    transform: translateX(20px); 
+}
+.services-headings-andalusian:hover{
+    transform: translateX(20px); 
+}
+.services-headings-andhra:hover{
+    transform: translateX(20px); 
+}
+.services-headings-arabic:hover{
+    transform: translateX(20px); 
+}
+.services-headings-agentinian:hover{
+    transform: translateX(20px);
+}
+.services-headings-armenian:hover{
+    transform: translateX(20px);
+}
+
+.hos{
+    margin-right: 10px;
+}
+.chilhos{
+    height: 39px;
+}
+
+.search_section {
+    padding: 20px 0;
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.search_input {
+    flex: 1;
+    padding: 0 20px;
+    font-size: 20px;
+    background-color: transparent;
+}
+
+.search_input_div {
+    background-color: white;
+    border-radius: 40px;
+    width: 500px;
+    min-height: 50px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search_result {
+    background: white;
+    width: 400px;
+    margin-top: 10px;
+    position: absolute;
+    top: 70px;
+}
+
+.search_result::-webkit-scrollbar {
+    display: none;
+}
+
+.search_suggestion_line,
+.search_loading {
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    display: block;
+}
+
+.search_suggestion_line:hover {
+    background: rgb(227, 227, 227);
+}
+
+.search_icon {
+    background-color: rgb(227, 227, 227);
+    padding: 0 25px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}

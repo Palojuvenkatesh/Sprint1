@@ -1,0 +1,84 @@
+[
+    {
+      "title": "Resturant",
+      "link": "http://localhost:3000/resturant-services"
+    },
+    {
+      "title": "Hospital",
+      "link": "http://localhost:3000/hospital-service"
+    },
+    {
+      
+      "title": "Hotels"
+    },
+    {
+      
+      "title": "Education"
+      
+    },
+    {
+    
+      "title": "Gym"
+      
+    },
+    {
+      
+      "title": "Dentists"
+     
+    },
+    {
+      
+      "title": "Driving School"
+      
+    },
+    {
+      
+      "title": "Beauty Spa"      
+    },
+    {
+    
+      "title": "contractors"
+     
+    },
+    {
+      
+      "title": "Pg Hostels"
+      
+    },
+    {
+      
+      "title": "Wedding Planning"
+    },
+    {
+      
+      "title": "Plumber"
+    },
+    {
+      "title": "Aagri Resturant",
+      "link": "http://localhost:3000/Aagri-resturant-service"
+    },
+    {
+      "title": "Afghani Resturant",
+      "link": "http://localhost:3000/Aagri-resturant-service"
+    },
+    {
+      "title": " African Resturant",
+      "link": "http://localhost:3000/Aagri-resturant-service"
+    },
+    {
+      "title": "American Resturant",
+      "link": "http://localhost:3000/Aagri-resturant-service"
+    },
+    {
+      "title": "Andalusian Resturants",
+      "link": "http://localhost:3000/Aagri-resturant-service"
+    },
+    {
+      "title": " Andhra Resturants",
+      "link": "http://localhost:3000/Aagri-resturant-service"
+    },
+    {
+      "title": " Arabic Resturants",
+      "link": "http://localhost:3000/Aagri-resturant-service"
+    }
+  ]

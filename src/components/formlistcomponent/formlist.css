@@ -1,0 +1,29 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid skyblue; /* Border for each cell */
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.product-list-header{
+    font-size: 35px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+.search-product-box{
+    width: 500px;
+    margin: 20px;
+    height: 40px;
+    padding-left: 30px;
+    border: solid 1px skyblue;
+    margin-left: 200px;
+}

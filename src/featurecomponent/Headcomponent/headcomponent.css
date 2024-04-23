@@ -1,0 +1,67 @@
+.bg{
+    background-color:white;
+    margin: 0 0 0 -3px;
+    width: 1000px;
+    height: 200px;
+}
+.head-line{
+    /* color: #373e4a; */
+    color:black ;
+    font-family: sans-serif;
+   padding: 40px 0 0 370px;
+   
+}
+.menu-bar1{
+    list-style-type: none;
+
+}
+.admin{
+    color: blue;
+margin-left: 10px;
+display: inline;
+position: relative;
+font-size: 25px;
+}
+.website{
+    margin-left: 40px;
+display: inline;
+position: relative;
+font-size: 25px;
+}
+.logout-button{
+    color: blue;
+display: inline;
+position: relative;
+font-size: 25px;
+margin-left: 900px;
+cursor: pointer;
+}
+.person-icon{
+font-size: 25px;
+color: black;
+
+}
+.website-icon{
+   
+    margin-left: 1000px;
+    font-size: 25px;
+}
+.lagout-icon{
+    font-size: 25px;
+}
+.menu-bar1{
+    margin: 30px 0 0 0;
+    position: relative;
+    
+}
+.menu-bar1::after{
+    content: "";
+    position: absolute;
+    display: block;
+    background-color: #373e4a;
+    height: 1px;
+    width: 1100px;
+    padding: 1px;
+    margin-top: 30px;
+  
+}

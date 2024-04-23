@@ -1,0 +1,29 @@
+.bg1{
+
+}
+
+.inputbox{
+    display: block;
+    padding: 7px;
+    width: 300px;
+    margin:  20px;
+    border: 1px solid skyblue;
+}
+
+.addbutton{
+    margin: 20px;
+    width: 150px;
+    padding: 8px;
+    background-color: skyblue;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.item-name{
+    margin-left: 20px;
+    font-size: 20px;
+    margin-bottom: -20px;
+}
+.bg1{
+    height: 1000px;
+}

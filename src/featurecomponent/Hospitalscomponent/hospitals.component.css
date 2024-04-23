@@ -1,0 +1,61 @@
+.containerr{
+    display: flex;
+    border: 2px solid #AAB7B8;
+    padding: 30px;
+    width: 1200px;
+    border-radius: 20px;
+    margin-left: 30px;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+.text{
+    margin-left: 30px;
+}
+.image-1{
+    border-radius: 20px;
+}
+.bookappointment-1{
+    margin-left: 10px;
+    border: none;
+    
+    border-radius: 5px;
+}
+.shownumber-1{
+border: none;
+border-radius: 5px;
+}
+.check-1{
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.hos-button{
+    border-radius: 5px;
+}
+.top-search{
+    border-radius: 5px;
+}
+.top-hospital-main-heading{
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    /* font-family: sans-serif; */
+    
+}
+.hospic{
+    height: 200px;
+    width: 100%;
+}
+
+.containerr .image-1{
+    transition: transform 0.3s ease;
+}
+
+.containerr:hover .image-1{
+    transform: scale(1.1);
+}
+
+
+   
+ 

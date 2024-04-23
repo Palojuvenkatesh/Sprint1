@@ -1,0 +1,115 @@
+.Main-container{
+    height: 45vh;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+.mpcategories-heading{
+    font-size: 33px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 50px;
+}
+.mpcategories-heading::after{
+    position: absolute;
+    content:"";
+    display: block;
+    background-color: #228B22;
+    /* border: 1px solid blue; */
+    height: 3px;
+    width: 50px;
+    padding: 2px;
+    margin-top: 15px;
+    margin-left: 775px;
+   
+}
+
+.resutrant-heading{
+    font-size: 15px;
+    padding: 5px;
+    padding-left: 20px;
+}
+.tlogo1{
+  height: 50px;
+  width: 50px;
+
+}
+.rest{
+    font-family: sans-serif;
+    font-size: 20px;
+
+    margin-left: 8px;
+}
+
+.hosp{
+    font-family: sans-serif;
+    font-size: 20px;
+
+    margin-left: 8px;
+}
+.hotell{
+    font-family: sans-serif;
+    font-size: 20px;
+
+    margin-left: 12px;
+}
+.educat{
+    font-family: sans-serif;
+    font-size: 20px;
+
+    margin-left: 8px;
+}
+.gymm{
+    font-family: sans-serif;
+    font-size: 20px;
+
+    margin-left: 18px;
+}
+.dentistss{
+    font-family: sans-serif;
+    font-size: 20px;
+
+    margin-left: 8px;
+}
+.drivschool{
+    font-family: sans-serif;
+    font-size: 20px;
+   
+    margin-left: -10px;
+    
+}
+.beautyy{
+    font-family: sans-serif;
+    font-size: 20px;
+
+    margin-left: -5px;
+}
+.contract{
+    font-family: sans-serif;
+    font-size: 20px;
+
+    margin-left: -10px;
+}
+.hostelss{
+    font-family: sans-serif;
+    font-size: 20px;
+
+    margin-left: -5px;
+}
+.weddingss{
+    font-family: sans-serif;
+    font-size: 20px;
+
+    margin-left: -18px;
+}
+.plumberr{
+    font-family: sans-serif;
+    font-size: 20px;
+
+    margin-left: 8px;
+}
+
+.house-cleaning-image{
+    width: 100vw;
+    height: 90vh;
+}
