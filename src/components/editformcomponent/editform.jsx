@@ -3,7 +3,7 @@ import { useParams, useNavigate } from "react-router-dom";
 
 import axios from "axios";
 
-function EditStudent() {
+function EditProduct() {
   const [userForm, setUserForm] = useState({
     name: "",
     description: "",
@@ -109,4 +109,4 @@ function EditStudent() {
   );
 }
 
-export default EditStudent;
+export default EditProduct;

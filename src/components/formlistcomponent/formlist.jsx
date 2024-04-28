@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import axios from "axios";
 import './formlist.css';
 
-function StudentList() {
+function ProductList() {
   const [userForm, setUserForm] = useState([]);
 
   const deleteStudent = (_id) => {
@@ -78,4 +78,4 @@ function StudentList() {
   );
 }
 
-export default StudentList;
+export default ProductList;

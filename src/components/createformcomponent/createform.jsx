@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import './createfrom.css';
+import './createform.css';
 
-function CreateStudent() {
+function CreateProduct() {
   const [userForm, setUserForm] = useState({
     name: "",
     description: "",
@@ -100,4 +100,4 @@ function CreateStudent() {
   );
 }
 
-export default CreateStudent;
+export default CreateProduct;

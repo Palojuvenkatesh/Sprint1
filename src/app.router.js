@@ -12,30 +12,31 @@ import { Aagriresturant } from "./featurecomponent/innerserviceresturantcomponen
 import { Adminmenu } from "./featurecomponent/Adminmenucomponent/adminmenu.component";
 import { Headcomponent } from "./featurecomponent/Headcomponent/heaadcomponent";
 import { Addproduct } from "./featurecomponent/footercomponent/Addproductcomponent/addproduct.component";
-import CreateStudent from "./components/createformcomponent/createform";
-import EditStudent from "./components/editformcomponent/editform";
-import StudentList from "./components/formlistcomponent/formlist";
 import { Logincomponent } from "./components/Logincomponent/login.component";
 import { SignUpcomponent } from "./components/signupcomponent/signup.component";
+import CreateProduct from "./components/createformcomponent/createform";
+import EditProduct from "./components/editformcomponent/editform";
+import ProductList from "./components/formlistcomponent/formlist";
+
 
 
 export function Approuter() {
   return (
     <Routes>
-      <Route path="/" element={<Homepage />} />
-      <Route path="/hospital-service" element={<Hospitalcomponent></Hospitalcomponent>}></Route>
-      <Route path="/hospitals-services" element={<Hosptial></Hosptial>}></Route>
-      <Route path="/resturant-services" element={<Restaurntservice></Restaurntservice>}></Route>
+    <Route path="/" element={<Homepage />} />
+    <Route path="/hospital-service" element={<Hospitalcomponent></Hospitalcomponent>}></Route>
+    <Route path="/hospitals-services" element={<Hosptial></Hosptial>}></Route>
+    <Route path="/resturant-services" element={<Restaurntservice></Restaurntservice>}></Route>
     <Route path="/resturant-category-service" element={<Categoryservice></Categoryservice>}></Route>
     <Route path="/Aagri-resturant-service" element={<Aagriresturant></Aagriresturant>}></Route>
     <Route path="/add-products" element={<Naddproducts></Naddproducts>}></Route>
-    <Route path="/create-product" element={<CreateStudent></CreateStudent>}></Route>
-    {/* <Route path="/edit-student/:id" element={<EditStudent></EditStudent>}></Route> */}
     <Route path="/edit-product/:id" element={<NavigateEditbutton></NavigateEditbutton>}></Route>
-    <Route path="/Product-list"  element={<StudentList></StudentList>}></Route>
     <Route path="/productlist-table" element={<Nproductlist></Nproductlist>} ></Route>
     <Route path="/login" element={<Logincomponent></Logincomponent>}></Route>
     <Route path="/signup" element={<SignUpcomponent></SignUpcomponent>}></Route>
+    <Route path="/create-product" element={<CreateProduct></CreateProduct>}></Route>
+
+    <Route path="/Product-list"  element={<ProductList></ProductList>}></Route>
     </Routes>
   );
 }
@@ -52,7 +53,8 @@ function Naddproducts() {
                   <Headcomponent></Headcomponent>
               </div>
               <div>
-                 <CreateStudent></CreateStudent>
+                 {/* <CreateStudent></CreateStudent> */}
+                 <CreateProduct></CreateProduct>
                  {/* <StudentList></StudentList> */}
                   
               </div>
@@ -74,7 +76,7 @@ function Nproductlist() {
               </div>
               <div>
                  
-                 <StudentList></StudentList>
+                <ProductList></ProductList>
                   
               </div>
           </div>
@@ -95,8 +97,8 @@ function NavigateEditbutton(){
                   <Headcomponent></Headcomponent>
               </div>
               <div>
-                 <EditStudent></EditStudent>
-                 
+             
+                 <EditProduct></EditProduct>
                   
               </div>
           </div>
