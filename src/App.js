@@ -15,12 +15,9 @@ import { Hospitalcomponent } from './featurecomponent/Hospitalservicecomponent/h
 import BookData from './Data.json';
 import { Adminmenu } from './featurecomponent/Adminmenucomponent/adminmenu.component';
 import { Adminlayout } from './featurecomponent/adminlayoutcomponent/adminlayout';
-import CreateStudent from './components/createformcomponent/createform';
-import EditStudent from './components/editformcomponent/editform';
-import StudentList from './components/formlistcomponent/formlist';
-import { Productform } from './components/productcomponent/productform';
-import { Logincomponent, Loginuser } from './components/Logincomponent/login.component';
-import { SignUpcomponent } from './components/signupcomponent/signup.component';
+
+
+
 
 
 
@@ -31,9 +28,14 @@ function App() {
       <BrowserRouter>
        
         <Approuter />
-        
-        
+      
       </BrowserRouter> 
+
+
+
+
+{/* <Dashboard></Dashboard> */}
+
 
       {/* <SearchBar></SearchBar> */}
       {/* <Searchbar></Searchbar> */}

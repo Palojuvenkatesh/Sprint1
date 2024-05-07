@@ -6,9 +6,9 @@ export function HowItWorks() {
     return (
         <div className='how-it-works-main'>
             <div className='how-it-works-title'>
-                <h1 className='m-heading'>How It Work</h1>
+                <h1>How It Work</h1>
             </div>
-            <div className='row body-descri'>
+            <div className='row'>
                 <div className='col-lg-4 col-md-6 col-sm-12 col-xs-12'>
                     <div className='how-it-works-body mt-3'>
                         <div>
@@ -16,8 +16,7 @@ export function HowItWorks() {
                         </div>
                         <div>
                             <h3>Choose What To Do</h3>
-                            <p>Search for activities based on your interests. For example, you could search for
- "Tutor," "Resutrant," "Online Shopping," or any other activity you're interested in</p>
+                            <p style={{color:'#949494'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore consequuntur atque neque fugiat rem vitae sint.</p>
                         </div>
                     </div>
                 </div>
@@ -28,7 +27,7 @@ export function HowItWorks() {
                         </div>
                         <div>
                             <h3>Find What You Want</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore consequuntur atque neque fugiat rem vitae sint.</p>
+                            <p style={{color:'#949494'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore consequuntur atque neque fugiat rem vitae sint.</p>
                         </div>
                     </div>
                 </div>
@@ -39,11 +38,13 @@ export function HowItWorks() {
                         </div>
                         <div>
                             <h3>Explore Amazing Places</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore consequuntur atque neque fugiat rem vitae sint.</p>
+                            <p style={{color:'#949494'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore consequuntur atque neque fugiat rem vitae sint.</p>
                         </div>
                     </div>
                 </div>
             </div>
+            <br></br>
+            <br></br>
         </div>
     )
 }

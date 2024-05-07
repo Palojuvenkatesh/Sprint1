@@ -9,11 +9,11 @@ export function Adminmenu(){
                 <h1 className='menu-management'>
                     Menu Management
                 </h1>
-                <Link to="/add-products">
+                <Link to="">
                 <h3 className='add-products'>Add Products</h3>
                 </Link>
                 
-                <Link to="/productlist-table">
+                <Link to="">
                 <h3 className='rest-products'>Products List</h3>
                 </Link>
                 

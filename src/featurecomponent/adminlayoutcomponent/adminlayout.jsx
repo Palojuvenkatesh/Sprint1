@@ -1,7 +1,7 @@
-import CreateStudent from "../../components/createformcomponent/createform";
+
 import { Adminmenu } from "../Adminmenucomponent/adminmenu.component";
 import { Headcomponent } from "../Headcomponent/heaadcomponent";
-import { Addproduct } from "../footercomponent/Addproductcomponent/addproduct.component";
+
 
 export function Adminlayout(){
     return(
@@ -15,7 +15,7 @@ export function Adminlayout(){
                        <Headcomponent></Headcomponent>
                     </div>
                     <div>
-                  <CreateStudent></CreateStudent>
+                  
                     </div>
                 </div>
             </div>

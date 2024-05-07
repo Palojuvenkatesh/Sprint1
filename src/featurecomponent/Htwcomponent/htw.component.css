@@ -1,4 +1,4 @@
-.how-it-works-main{
+/* .how-it-works-main{
     margin-left: 20px;
     margin-right: 20px;
   
@@ -27,4 +27,15 @@
     .how-it-works-main{
         height: 60vh;
     }
+} */
+
+.how-it-works-main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.how-it-works-title{
+    text-align: center;
+}
+.how-it-works-body{
+    text-align: center;
 }
