@@ -25,7 +25,7 @@
   .listyourbussiness-headss{
     font-size: 21px;
     margin-top: 10px;
-    margin-left: 100px;
+    margin-left: 50px;
     font-family: sans-serif;
     color:#5D6D7E;
   }
@@ -33,7 +33,7 @@
   .signin-headss{
     margin-top: 13px;
     font-size: 23px;
-    margin-left: 100px;
+    margin-left: 50px;
     font-family: sans-serif;
     color:#5D6D7E;
   }
@@ -53,4 +53,9 @@
     margin-left: 50px;
     font-family: sans-serif;
     color:#5D6D7E;
+  }
+
+  .nav-barr-srcoll{
+    background-color: white;
+    
   }

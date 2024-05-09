@@ -17,7 +17,7 @@ import housecleanig from '../../Assests/house-cleaning.jpg';
 export function Servicecomponent() {
     return (
         <div>
-            {/* <img className='house-cleaning-image' src={housecleanig}></img> */}
+            <img className='house-cleaning-image' src={housecleanig}></img>
             <div>
                 <h1 style={{ fontSize: "33px", textAlign: "center" }} className='mt-5'>Most Popular Categories</h1>
                 <br></br>

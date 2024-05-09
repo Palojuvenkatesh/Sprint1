@@ -13,7 +13,7 @@ const Homepage = () => {
     return (
         <div>
             <Headercomponent></Headercomponent>
-            <CarosalComponent></CarosalComponent>
+            {/* <CarosalComponent></CarosalComponent> */}
             <Servicecomponent></Servicecomponent>
             <SliderComponent></SliderComponent>
             <Cardcomponent></Cardcomponent>

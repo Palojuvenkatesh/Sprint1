@@ -33,7 +33,7 @@ export function Headercomponent() {
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll">
                         <Nav
-                            className="me-auto my-4 my-lg-0"
+                            className="me-auto my-4 my-lg-0 nav-barr-srcoll"
                             style={{ maxHeight: '100px' }}
                             navbarScroll
                         >

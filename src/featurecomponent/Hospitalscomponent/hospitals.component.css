@@ -1,15 +1,14 @@
-.containerr{
+/* .containerr{
     display: flex;
     border: 2px solid #AAB7B8;
     padding: 30px;
     width: 1200px;
-    border-radius: 20px;
+    border-radius: 10px;
     margin-left: 30px;
     overflow: hidden;
     cursor: pointer;
 
 }
-
 .text{
     margin-left: 30px;
 }
@@ -40,7 +39,7 @@ border-radius: 5px;
     margin-top: 20px;
     margin-left: 30px;
     margin-bottom: 30px;
-    /* font-family: sans-serif; */
+    
     
 }
 .hospic{
@@ -54,8 +53,54 @@ border-radius: 5px;
 
 .containerr:hover .image-1{
     transform: scale(1.1);
+} */
+
+.hospic{
+    height: 200px;
+    width: 100%;
+}
+.containerr {
+    display: flex;
+    border: 2px solid #AAB7B8;
+    padding: 30px;
+    width: 100%; /* Change width to 100% */
+    max-width: 600px; /* Set a maximum width */
+    border-radius: 20px;
+    margin: 0 auto; /* Center the container horizontally */
+    overflow: hidden;
+    cursor: pointer;
+    box-sizing: border-box; /* Include padding and border in the width calculation */
 }
 
+.text {
+    margin-left: 30px;
+}
 
-   
- 
+.image-1 {
+    border-radius: 20px;
+    width: 100%; /* Set image width to 100% */
+}
+
+@media (min-width: 768px) {
+    .containerr {
+        max-width: 1200px; /* Adjust maximum width for larger screens */
+      
+    }
+}
+
+@media (max-width: 767px) {
+    .containerr {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+       
+    }
+
+    .text {
+        margin-left: 0; /* Remove left margin on smaller screens */
+        margin-top: 20px; /* Add top margin */
+        text-align: center; /* Center text on smaller screens */
+    }
+
+    .containerr .image-1 {
+        margin-bottom: 20px; /* Add bottom margin to images */
+    }
+}
